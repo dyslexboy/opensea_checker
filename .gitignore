@@ -172,3 +172,26 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# VS Code specific files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# General OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+*.iml
+
+# Node.js and npm
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-error.log*
